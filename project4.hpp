@@ -1,11 +1,5 @@
 #ifndef _PROJECT4_HPP_
 #define _PROJECT4_HPP_
-////////////////////////////////////
-// ECE 150: Project 4
-//
-// Authors: Douglas Harder
-//          Hiren Patel
-////////////////////////////////////
 
 #include <cassert>
 #include <fstream>
@@ -15,7 +9,7 @@
 #include <string>
 #include <vector>
 
-namespace ece150 {
+{
 // File and string parsing
 extern std::ifstream file;
 extern std::string content;
@@ -62,6 +56,6 @@ double get_trans_amount();
 
 bool get_trans_type();
 
-};  // namespace ece150
+};  
 
 #endif

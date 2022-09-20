@@ -1,9 +1,3 @@
-////////////////////////////////////
-// ECE 150: Project 4
-//
-// Authors: Douglas Harder
-//          Hiren Patel
-////////////////////////////////////
 
 #include <cassert>
 #include <fstream>
@@ -15,7 +9,7 @@
 
 #include "project4.hpp"
 
-namespace ece150 {
+ {
 // File and string parsing
 std::ifstream file{};
 std::string content{};
@@ -94,4 +88,4 @@ double get_trans_amount() { return amount; }
 
 bool get_trans_type() { return (buysell == "Buy") ? true : false; }
 
-};  // namespace ece150
+};  
